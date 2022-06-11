@@ -1,0 +1,19 @@
+npm init -y
+yarn add express mongoose dotenv nodemon
+
+//password hashing packag
+yarn add crypto-js
+
+yarn add jsonwebtoken
+
+yarn add react-router-dom
+
+yarn add cors or 
+                    app.use(function(req, res, next) {
+                    res.header("Access-Control-Allow-Origin", "*");
+                    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+                    res.header("Access-Control-Allow-Headers", "x-access-token, Origin, X-Requested-With, Content-Type, Accept");
+                    next();
+                    });
+
+change login route name
