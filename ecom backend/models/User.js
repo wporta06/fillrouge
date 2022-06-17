@@ -5,6 +5,13 @@ const UserSchema = new mongoose.Schema({
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
     isAdmin: { type: Boolean, default: false },
+    
+    phone: { type: String },
+    fullname: { type: String },
+    dateofbirth: { type: String },
+    adress: { type: String },
+    email: { type: String },
+    img: { type: String }
 },
     { timestamps: true }
 );

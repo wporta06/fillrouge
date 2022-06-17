@@ -1,0 +1,4 @@
+
+yarn add @reduxjs/toolkit react-redux
+
+yarn add redux-persist
